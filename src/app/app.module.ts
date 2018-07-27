@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { PassComponent } from './pass/pass.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
+    PassComponent,
     ],
   imports: [
     BrowserModule,
